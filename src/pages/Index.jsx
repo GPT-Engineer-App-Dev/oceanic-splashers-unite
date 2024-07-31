@@ -1,12 +1,23 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import Header from "./Header";
+import Hero from "./Hero";
+import About from "./About";
+import Events from "./Events";
+import Gallery from "./Gallery";
+import Contact from "./Contact";
+import Footer from "./Footer";
 
 const Index = () => {
   return (
-    <div className="flex justify-center items-center">
-      <div className="text-center">
-        <h1 className="text-3xl">Your Blank Canvas</h1>
-        <p>Chat with the agent to start making edits.</p>
-      </div>
+    <div className="flex flex-col min-h-screen">
+      <Header />
+      <main>
+        <Hero />
+        <About />
+        <Events />
+        <Gallery />
+        <Contact />
+      </main>
+      <Footer />
     </div>
   );
 };
