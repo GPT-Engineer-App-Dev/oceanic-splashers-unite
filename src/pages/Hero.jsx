@@ -10,7 +10,7 @@ const Hero = () => {
       />
       <div className="absolute inset-0 bg-background opacity-70"></div>
       <div className="relative z-10 text-center">
-        <h1 className="text-4xl font-bold mb-4">Cercle des Nageurs Marins</h1>
+        <h1 className="text-4xl font-bold mb-4">Cercle des Nageurs</h1>
         <p className="text-xl mb-8">Embrace the waves, challenge yourself</p>
         <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground">Join Us</Button>
       </div>
