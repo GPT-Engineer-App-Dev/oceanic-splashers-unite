@@ -1,10 +1,10 @@
 const About = () => {
   return (
-    <section id="about" className="py-16 bg-blue-50">
+    <section id="about" className="py-16 bg-background">
       <div className="container mx-auto px-4 flex flex-col md:flex-row items-center">
         <div className="md:w-1/2 mb-8 md:mb-0">
           <h2 className="text-3xl font-bold mb-4 text-primary">About Our Club</h2>
-          <p className="text-gray-700">
+          <p className="text-foreground">
             The Open Sea Swimmers Club is a community of passionate individuals who share a love for open water swimming. 
             We organize regular swims, training sessions, and events for swimmers of all levels. 
             Our goal is to promote the sport, improve safety awareness, and create lasting friendships among our members.

@@ -21,21 +21,21 @@ const events = [
 
 const Events = () => {
   return (
-    <section id="events" className="py-16 bg-blue-100">
+    <section id="events" className="py-16 bg-background">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold mb-8 text-center text-primary">Upcoming Events</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {events.map((event, index) => (
-            <Card key={index} className="bg-white">
+            <Card key={index} className="bg-card">
               <CardHeader>
                 <CardTitle className="text-primary">{event.title}</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="font-semibold text-blue-600">{event.date}</p>
-                <p className="mt-2 text-gray-600">{event.description}</p>
+                <p className="font-semibold text-primary">{event.date}</p>
+                <p className="mt-2 text-card-foreground">{event.description}</p>
               </CardContent>
               <CardFooter>
-                <Button className="bg-primary hover:bg-blue-600">Learn More</Button>
+                <Button className="bg-primary hover:bg-primary/90">Learn More</Button>
               </CardFooter>
             </Card>
           ))}

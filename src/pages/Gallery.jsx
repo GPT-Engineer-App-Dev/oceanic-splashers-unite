@@ -18,7 +18,7 @@ const Gallery = () => {
   const [selectedImage, setSelectedImage] = useState(null);
 
   return (
-    <section id="gallery" className="py-16 bg-blue-50">
+    <section id="gallery" className="py-16 bg-background">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold mb-8 text-center text-primary">Gallery</h2>
         <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
@@ -32,7 +32,7 @@ const Gallery = () => {
                   onClick={() => setSelectedImage(image)}
                 />
               </DialogTrigger>
-              <DialogContent className="max-w-3xl">
+              <DialogContent className="max-w-3xl bg-card">
                 <img
                   src={selectedImage}
                   alt="Selected gallery image"
