@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-4 md:mb-0">
-            <p>&copy; 2024 Cercle des Nageurs Marins. All rights reserved.</p>
+            <p>&copy; 2024 Cercle des Nageurs. All rights reserved.</p>
           </div>
           <div className="flex space-x-4">
             <a href="#" className="hover:text-blue-200">
