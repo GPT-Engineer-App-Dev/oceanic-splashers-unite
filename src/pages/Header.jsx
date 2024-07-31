@@ -7,7 +7,7 @@ const Header = () => {
       <div className="container mx-auto flex justify-between items-center">
         <div className="flex items-center">
           <img src="/placeholder.svg" alt="Logo" className="h-10 w-10 mr-2" />
-          <span className="text-xl font-bold">Open Sea Swimmers Club</span>
+          <span className="text-xl font-bold">Cercle des Nageurs Marins</span>
         </div>
         <nav>
           <ul className="flex space-x-4">
